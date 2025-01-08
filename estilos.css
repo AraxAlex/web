@@ -1,0 +1,87 @@
+/* === IMPORTANTE ===
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================= */
+
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: 0 auto;
+}
+
+#cabecera, #menu, #pie { clear: both; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li { display: inline; float: left; margin-right: 2em; }
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido img { width: 100px; float: left; }
+
+/* === IMPORTANTE ===
+   A partir de aquí, se pueden añadir todos los estilos propios que
+   sean necesarios.
+   ================= */
+
+   {
+      font-family:Arial, Helvetica, sans-serif;
+      text-align: justify;
+   }
+   h1{
+      padding: 300%;
+      text-align: center;
+   }
+   h2{
+      padding: 200%;
+      background-color: gray;
+      color: azure;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      padding-top: 0.2em;
+      padding-bottom: 0.2em;
+   }
+   #h2{
+      background-color: crimson;
+   }
+   #h2{
+      background-color: dodgerblue;
+   }
+   #parrafo{
+      width: 1em;
+   }
+   #strong{
+      background-color: azure;
+   }
+   #cabecera{
+      padding: 1em;
+   }
+   #menu{
+      padding: 0.5em;
+      margin-bottom: 0.5em;
+      border-left-width: 3px solid darkgray;
+   }
+   #pie{
+      margin-top: 1em;
+      padding-top: 1em;
+      border-top-width: 1px dotted #C5C5C5;
+      color: #666;
+      text-align: center;
+   }
+   p img{
+      margin-right: 1em;
+      margin-bottom: 1em;
+   }
+   link{
+      color: dodgerblue;
+      text-decoration: none;
+      padding: 0.5em;
+   }
+
+
+

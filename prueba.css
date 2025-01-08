@@ -1,0 +1,27 @@
+
+/*Margen y relleno en todos los lados*/
+{
+
+    *margin:0;padding:0;
+}
+/*Fuente arial,tamaño, altura, margen arriba y abajo y alineación justificada*/
+{
+    font-family:arial; 
+    font-size: 1em;
+    line-height: 1.2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: justify;
+
+
+}
+
+/*Imagenes que esten dentro de un parrafo margen en todos sus lados*/
+
+p img {margin: 2em;}
+
+
+
+p .destacado {color:yellow; padding: 1.5em; border: 1px solid #000 }
+
+#importante {font-weight: bold;}
